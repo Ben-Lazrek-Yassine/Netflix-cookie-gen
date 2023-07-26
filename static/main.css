@@ -1,0 +1,70 @@
+body {
+    background-image: "static/imgs/altspagebg2.png";
+    margin: 0;
+    padding: 0;
+    background-color: #FF0000; /* Set your desired background color (red) */
+    overflow: hidden; /* Hide horizontal scrollbar */
+}
+
+.container {
+    max-width: 100vw; /* Make the container full width of the viewport */
+    height: 100vh; /* Make the container full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.jumbotron {
+    background-color: #E50914; /* Set your desired jumbotron background color */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.display-4 {
+    color: #FFF; /* Set your desired heading text color */
+}
+
+.btn-dark {
+    background-color: #000; /* Set your desired button background color */
+    border-color: #000; /* Set your desired button border color */
+}
+
+.btn-dark:hover {
+    background-color: #222; /* Set your desired button background color on hover */
+    border-color: #222; /* Set your desired button border color on hover */
+}
+
+#generatedData {
+    margin-top: 20px;
+}
+
+#generatedAccount {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+    resize: vertical;
+}
+
+body {
+    background-image: "static/imgs/altspagebg2.png";
+    margin: 0;
+    padding: 0;
+    background-color: #FF0000; /* Set your desired background color (red) */
+    overflow: hidden; /* Hide horizontal scrollbar */
+}
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+

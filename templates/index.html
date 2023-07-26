@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="./static/imgs/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="static/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="static/main.js" defer></script>
+    <title>Netflix Cookie Generator</title> 
+</head>
+<body>
+    <video autoplay muted loop id="video-background">
+        <source src="../static/imgs/bvod.mp4" type="video/mp4">
+    </video>
+    <div class="container">
+        <div class="flex justify-center py-8 center-logo">
+            <img src="../static/imgs/nf.png" alt="Netflix Logo" style="max-width: 400px; margin-bottom: 20px; margin-left: -100px;">        </div>
+        <div class="jumbotron text-center">
+            <h2 class="display-4 mb-4">Netflix Cookie Generator</h2>
+            <form class="text-left">
+                <div class="form-group">
+                    <label for="gen">Cookie Type:</label>
+                    <select class="form-control" id="gen">
+                        <option value="disabled" selected>Select A Gen</option>
+                        {% for gen in gens %}
+                        <option value="{{gen}}">{{gen.title()}}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <button class="btn btn-dark btn-lg flex justify-center mt-4" id="genbtn" type="button">Generate</button>
+            </form>
+            <div class="mt-4">
+                <textarea class="form-control" id="cookies" rows="3" placeholder="Cookie will appear here" ></textarea>
+                <button class="btn btn-primary btn-lg mt-2" id="copyCookieBtn">Copy Cookie</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

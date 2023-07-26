@@ -1,0 +1,56 @@
+
+
+[
+    {
+        "domain": ".netfazdazlix.com",
+        "expirationDate": 1721918163.951768,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "SecureNetflixId",
+        "path": "/",
+        "sameSite": "strict",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "v%3D2%26mac%3DAQEAEQABABT8I6P9HnFuxn4jGqtv_xE6nQp91o4pHjk.%26dt%3D1690382163680"
+    },
+    {
+        "domain": ".netflix.com",
+        "expirationDate": 1721918163.951825,
+        "hostOnly": false,
+        "httpOnly": true,
+        "name": "NetflixId",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": false,
+        "storeId": null,
+        "value": "ct%3DBQAOAAEBEOg_wZrV2KHNyLvvwsWjVSGB8LyNMicZcMJAoy2vNJk2VeckImyf2dKjBEGzhmIl7Ergg6v6Sq69R2_EKdcYmmq-oqXf_er4uoXVtLqRRBe7dhdcXJX9OXwfsiWB1PMdFvdmNLJLjoxvQyAEh-0YU5cIwwj_yoqO-Q0ntO6oXLNR2Ni_SCEig9mi4FwF8pfaFSs5RoRq5Q2sLMr04hA38mYUn8yksBSwmg2cHeebmxrUWT7TL7egS9tl-mXruiXXoQmnvrIFjMDkcBeyI6OjsS8dzI9PCnaGN8SPzxgGdCqOs4D5Umxu8sEoB04y8gEjsF1nEyE8qm2x88SrOEl5pxDUDcOSDGN9DUf0d46EyGSWkw8rwW3QsLLPBO0KxYtWnW4-8IKiIz0th1dPS35XXhA9OEJ11gX-bR92TGu-8OAGeahPguIFWjpt0ksPvpgxWGerCvseM2W3YGlgrLJAbv5HdKwepMKbaW89WfFheiuTQWk2CZWcDAHEGmQApIQdX5bz9DyE_wX2NXfuwoPIhstN-l6qqLEsAMaj1_wcyEL-HZpdca_XZVepfRWZnzCqlSE1a4T-psv-7dzBVu4gLtq2gGelc7tttirQ8vkzlKBgxPoGGdhGUiTY4TuXE3ueJwNc80Xaq10XvK9sNyfBA6kXAWJqRooOsRz5HGc3XARX-pg.%26bt%3Ddbl%26ch%3DAQEAEAABABTARKENRfbHDsmy4iO3mg6PKNimdsxs-Kk.%26v%3D2%26mac%3DAQEAEAABABTw9PvK_ycrg8guPjHkVmccxHtGscDPVb4."
+    },
+    {
+        "domain": ".netflix.com",
+        "expirationDate": 1721918168,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "OptanonConsent",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "consentId=9e8a8660-b48e-4343-8489-9c16ce9455fc&datestamp=Wed+Jul+26+2023+15%3A36%3A08+GMT%2B0100+(heure+normale+d%E2%80%99Europe+centrale)&version=202301.1.0&interactionCount=1&isGpcEnabled=0&isIABGlobal=false&hosts=&landingPath=NotLandingPage&groups=C0001%3A1%2CC0002%3A1%2CC0003%3A1%2CC0004%3A1&AwaitingReconsent=false"
+    },
+    {
+        "domain": ".netflix.com",
+        "expirationDate": 1721748878.821432,
+        "hostOnly": false,
+        "httpOnly": false,
+        "name": "nfvdid",
+        "path": "/",
+        "sameSite": null,
+        "secure": false,
+        "session": false,
+        "storeId": null,
+        "value": "BQFmAAEBEA5QGNheRLbILma0R7q4dnZgu5rpPnG_C1rIpFWxHE6yNo0sT7aOhfivJ-j7rmEGvGC4aDk5FvbhQD-W_W2d7bMU-6vd9NlstMXOzHx5ynKs0KYd6thK9xq-wrNSt2B3SBj011xNGVVyRe3TpoSAirQm"
+    }
+]
