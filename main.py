@@ -35,7 +35,7 @@ def save_cookie_json(cookie):
     except Exception as e:
         print(f"Error saving JSON cookie: {e}")
 
-Cooldowns = {}  # Array for managing cooldowns
+Cooldowns = {}  
 def cooldown_manager():
     while True:
         for ip in Cooldowns.copy():
